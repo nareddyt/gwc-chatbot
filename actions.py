@@ -1,20 +1,20 @@
 import datetime
 
 
-def choose_action(action, data):
+def choose_action(action):
     text = "Looking for action..."
 
     if action == "hello":
-        text = hello(data)
+        text = hello()
     elif action == "time":
-        text = get_time(data)
+        text = get_time()
     else:
         text = "No action matched!"
 
     return text
 
 
-def hello(data):
+def hello():
     """
     Says "Hello World" to the user
     """
@@ -24,7 +24,7 @@ def hello(data):
     return text
 
 
-def get_time(data):
+def get_time():
     """
     Tells the user the current time
     """
