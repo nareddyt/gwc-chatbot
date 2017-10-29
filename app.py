@@ -1,4 +1,4 @@
-# -*- coding:utf8 -*-
+
 # !/usr/bin/env python
 # Copyright 2017 Google Inc. All Rights Reserved.
 #
@@ -62,6 +62,7 @@ def sendTextResponse(text):
 
     print("Response:")
     print(text)
+    print('=============')
 
     return {
         "speech": text,
