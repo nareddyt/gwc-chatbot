@@ -52,7 +52,7 @@ def webhook():
 
 
 def processRequest(req):
-    text = actions.choose_action(req.get("result").get("action"), None)
+    text = actions.choose_action(req.get("result").get("action"))
     return sendTextResponse(text)
 
 
