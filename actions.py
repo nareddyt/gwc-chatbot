@@ -14,13 +14,13 @@ def choose_action(action, params):
     return text
 
 
-def hello(params):
+def hello(given-name):
     """
     Says "Hello World" to the user
     """
     print('hello action')
 
-    text = "Hello " + str(params)
+    text = "Hello " + str(given-name)
     return text
 
 
