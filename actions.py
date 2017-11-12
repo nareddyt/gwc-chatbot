@@ -1,11 +1,11 @@
 import datetime
 
 
-def choose_action(action):
+def choose_action(action, params):
     text = "Looking for action..."
 
     if action == "hello":
-        text = hello()
+        text = hello(params)
     elif action == "time":
         text = get_time()
     else:
@@ -14,7 +14,7 @@ def choose_action(action):
     return text
 
 
-def hello():
+def hello(params):
     """
     Says "Hello World" to the user
     """
