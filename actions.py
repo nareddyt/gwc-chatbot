@@ -42,7 +42,7 @@ def hello_language(language):
         text = "Bonjour!"
     elif language == "German":
         text = "Guten Tag!"
-    elif language == "Russian":
+    elif language == "Latin":
         text = "Salve!"
     else:
         text = "No language detected"
