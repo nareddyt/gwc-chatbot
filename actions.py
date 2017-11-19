@@ -45,7 +45,7 @@ def hello_language(language):
     elif language == "Latin":
         text = "Salve!"
     else:
-        text = "No language detected"
+        text = language + " not supported yet :("
     
     return text
 
